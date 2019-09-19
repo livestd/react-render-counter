@@ -10,8 +10,10 @@ class CounterState {
     }
 }
 
-export function Counter() {
+const Counter = () => {
     const [counter, ] = useState(new CounterState())
     counter.inc()
     return (<>{counter.count}</>)
 }
+
+export default Counter;

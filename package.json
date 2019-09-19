@@ -1,8 +1,9 @@
 {
-  "name": "react-render-counter",
-  "version": "1.0.0",
+  "name": "@livestd/react-render-counter",
+  "version": "1.0.1",
   "description": "simple counter with react hook",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +13,11 @@
     "react-counter"
   ],
   "author": "Dmitry Rtishchev @livestd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/livestd/react-render-counter.git"
+  },
+  "homepage": "https://github.com/livestd/react-render-counter#readme",
   "license": "MIT",
   "dependencies": {
     "@types/react": "^16.9.2",
