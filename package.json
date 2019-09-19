@@ -1,0 +1,21 @@
+{
+  "name": "react-render-counter",
+  "version": "1.0.0",
+  "description": "simple counter with react hook",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-counter"
+  ],
+  "author": "Dmitry Rtishchev @livestd",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.3"
+  }
+}
