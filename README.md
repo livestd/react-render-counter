@@ -1,6 +1,5 @@
 # react-render-counter
-Simple counter on react-gooks
-
+Simple counter based on react-hooks
 
 ## Installation
 ```
@@ -10,10 +9,7 @@ npm install --save @livestd/react-render-counter
 ## Usage
 
 ```js
-import Counter from 'react-render-counter'
+import Counter from '@livestd/react-render-counter'
 
-return () => (<Counter />)
+export default () => (<Counter />)
 ```
-
-## Features
-- add optional styles
