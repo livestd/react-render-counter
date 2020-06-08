@@ -1,5 +1,5 @@
 {
-  "name": "react-render-counter",
+  "name": "@livestd/react-render-counter",
   "version": "1.0.2",
   "description": "simple render counter with react hook",
   "main": "dist/index.js",
